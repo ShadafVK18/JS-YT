@@ -48,7 +48,7 @@ const myFunction = function() {
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
+console.log(typeof anotherId);
 
 //Primitive datatypes:
 // String - string
@@ -62,3 +62,29 @@ console.log(typeof bigNumber);
 // Array - object
 // Function - function(object)
 // Object - object
+
+
+// +++++++++++++++++++++++++++++++++++++++
+
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Ankityadavdot.com"
+
+let anotherName = myYoutubename
+anotherName = "Ankit Yadav"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shadaf@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
